@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tickets_sevice.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tickets_sevice.settings")
 
 application = get_wsgi_application()
